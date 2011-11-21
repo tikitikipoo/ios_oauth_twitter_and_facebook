@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8543DF181470B1AF0047572F /* TimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8543DF171470B1AF0047572F /* TimelineViewController.m */; };
 		8546D28E1468D35000F872AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8546D28D1468D35000F872AC /* UIKit.framework */; };
 		8546D2901468D35000F872AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8546D28F1468D35000F872AC /* Foundation.framework */; };
 		8546D2921468D35000F872AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8546D2911468D35000F872AC /* CoreGraphics.framework */; };
@@ -43,6 +44,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8543DF161470B1AF0047572F /* TimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineViewController.h; sourceTree = "<group>"; };
+		8543DF171470B1AF0047572F /* TimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineViewController.m; sourceTree = "<group>"; };
 		8546D2891468D35000F872AC /* ApiTwitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApiTwitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8546D28D1468D35000F872AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8546D28F1468D35000F872AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -181,6 +184,8 @@
 				8546D3091469197D00F872AC /* FollowersViewController.m */,
 				8546D30B14691C6300F872AC /* FollowersTableViewCell.h */,
 				8546D30C14691C6400F872AC /* FollowersTableViewCell.m */,
+				8543DF161470B1AF0047572F /* TimelineViewController.h */,
+				8543DF171470B1AF0047572F /* TimelineViewController.m */,
 				8546D2941468D35000F872AC /* Supporting Files */,
 			);
 			path = ApiTwitter;
@@ -389,6 +394,7 @@
 				8546D30514690F8400F872AC /* LoginViewController.m in Sources */,
 				8546D30A1469197E00F872AC /* FollowersViewController.m in Sources */,
 				8546D30D14691C6400F872AC /* FollowersTableViewCell.m in Sources */,
+				8543DF181470B1AF0047572F /* TimelineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
