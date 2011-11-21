@@ -22,7 +22,7 @@
 
 // Facebook
 Facebook	*facebook;
-NSString	*appID	= @"143472535754767";
+NSString	*appID	= @"";
 
 
 @implementation CYAppDelegate
