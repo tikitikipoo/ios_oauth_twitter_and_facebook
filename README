@@ -1,5 +1,12 @@
 
 Beginning iOS Apps With Facebook and Twitter APIs: For iPhone, iPad, and iPod Touch [ペーパーバック]
 http://www.amazon.co.jp/Beginning-Apps-Facebook-Twitter-APIs/dp/143023542X
+上の本のサンプルコードが2011/11/01の時点で、
+依存ライブラリのバージョンの差異により
+正常に動作しないので、修正したものをここにあげる
 
-Please edit api key
+動作させるにはfacebook、twitter、twitpicのapi keyを入力してください。
+入力ファイル
+CYAppDelegate.m
+GSTwitPicEngine.h
+
