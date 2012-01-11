@@ -145,7 +145,11 @@ NSArray *followers;
 	[[NSNotificationCenter defaultCenter] postNotificationName:connectionIdentifier 
 														object:self 
 													  userInfo:userInfoDictionary];
-	
+    
+    if (! [statuses count]) {
+        return;
+    }
+    
 	NSDictionary *dictionary = [statuses objectAtIndex:0];
 	if (dictionary) {
 		NSString *twitterID = [dictionary objectForKey:@"id"];
